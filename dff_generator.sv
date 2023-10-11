@@ -1,6 +1,6 @@
 class generator;
   
-  transaction 				xtn_gen;
+  transaction 				    xtn_gen;
   mailbox #(transaction) 	gen2sb;
   mailbox #(transaction) 	gen2drv;
   

@@ -4,11 +4,11 @@ class transaction;
   //rand bit din;
   //bit dout;
   randc logic din;	// To send X as a valid input
-  logic dout;
+  logic       dout;
   
   // Deep Copy, so that Env can work with Out-of-Order execution
   function transaction copy();
-    copy 	  = new();
+    copy 	    = new();
     copy.din  = this.din;
     copy.dout = this.dout;
   endfunction

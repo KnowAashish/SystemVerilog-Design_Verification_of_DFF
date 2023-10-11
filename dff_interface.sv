@@ -1,6 +1,6 @@
 interface intf();
 
-	bit		clk;
+	bit	clk;
 	logic 	resetn;
 	logic 	din;
 	logic 	dout;

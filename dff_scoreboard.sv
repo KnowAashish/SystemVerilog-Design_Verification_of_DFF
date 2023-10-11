@@ -42,5 +42,5 @@ class scoreboard;
       end
       
     endtask
-  
+
 endclass

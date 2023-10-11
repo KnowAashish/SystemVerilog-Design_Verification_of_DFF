@@ -33,7 +33,7 @@ class driver;
     forever begin
       gen2drv.get(xtn_drv);
       vif_drv.din <= xtn_drv.din;
-      xtn_drv.display("DRV");		// value of din driven to DUT
+      xtn_drv.display("DRV");		// value of din driven to DUT 
       @(posedge vif_drv.clk);
       vif_drv.din <= 1'b0;
       //vif_drv.din <= 1'bx;

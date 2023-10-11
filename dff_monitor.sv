@@ -1,6 +1,6 @@
 class monitor;
   
-  transaction				xtn_mon;
+  transaction				      xtn_mon;
   mailbox #(transaction)	mon2sb;
   
   virtual intf vif_mon;

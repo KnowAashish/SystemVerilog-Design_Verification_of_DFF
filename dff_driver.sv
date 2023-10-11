@@ -1,6 +1,6 @@
 class driver;
 
-  transaction				xtn_drv;
+  transaction		          xtn_drv;
   mailbox #(transaction) 	gen2drv;
   
   virtual intf vif_drv;

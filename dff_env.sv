@@ -1,8 +1,8 @@
 class environment;
   
   generator		gen;
-  driver		drv;
-  monitor		mon;
+  driver	  	drv;
+  monitor	  	mon;
   scoreboard	sb;
   
   mailbox #(transaction) gen2drv;
@@ -27,7 +27,6 @@ class environment;
     this.vif_env = VIF_ENV;
     drv.vif_drv  = this.vif_env;
     mon.vif_mon  = this.vif_env;
-    
     
     // Connect events
     sb.sbdone  = env_done;

@@ -2,11 +2,9 @@
 This repository contains detailed RTL design and TB verification of a D Flip-Flop.
 
 RTL Design:
-Resetn Din Dout
-  0     X    0
-  1     X    X
-  1     1    1
-  1     0    0
+Resetn  0  1  1  1 
+Din     X  X  1  0
+Dout    0  0  1  0
 
 TB Design:
 Package files are created to import in the tb top module.
